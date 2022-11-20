@@ -1,0 +1,97 @@
+[
+    {
+        "id": "1",
+        "parent_id": null,
+        "name": "Выполнить тестовое задание",
+        "done": false,
+        "params": {
+            "description": "Стек технологий: TypeScript + React (функциональные компоненты) + Redux",
+            "category": "work"
+        }
+    },
+    {
+        "id": "2",
+        "parent_id": "1",
+        "name": "Разработать Web-форму",
+        "done": false,
+        "params": {
+            "description": "Разработать Web-форму состоящую из двух частей. В левой части дерево элементов (Tree), в правой части свойства выбранного элемента в дереве;",
+            "category": "work"
+        }
+    },{
+        "id": "3",
+        "parent_id": "1",
+        "name": "Свойства представить в виде закладок (Tab)",
+        "done": false,
+        "params": {
+            "description": "Свойства должны быть представлены на виде с закладками (Tab). При выборе закладки отображается отдельная часть свойств выбранного объекта;",
+            "category": "work"
+        }
+    },{
+        "id": "4",
+        "parent_id": "1",
+        "name": "Несколько свойств сделать редактируемыми",
+        "done": false,
+        "params": {
+            "category": "work"
+        }
+    },{
+        "id": "5",
+        "parent_id": "1",
+        "name": "Построить дерево",
+        "done": false,
+        "params": {
+            "description": "Количество элементов в дереве, глубина дерева на выбор, но как минимум один уровень вложенности;",
+            "category": "work"
+        }
+    },{
+        "id": "6",
+        "parent_id": "4",
+        "name": "Выбрать количество редактируемых свойст",
+        "done": false,
+        "params": {
+            "category": "work"
+        }
+    },{
+        "id": "7",
+        "parent_id": "1",
+        "name": "Сделать возможность локально сохранять отображаемые(введенные) данные в JSON-файл",
+        "done": false,
+        "params": {
+            "category": "work"
+        }
+    },{
+        "id": "8",
+        "parent_id": "1",
+        "name": "сделать возможность загружать эти данные из локального JSON-файла с дальнейшим отображением в Web-формах",
+        "done": false,
+        "params": {
+            "category": "work"
+        }
+    },{
+        "id": "9",
+        "parent_id": "null",
+        "name": "Поухаживать за цветочками",
+        "done": false,
+        "params": {
+            "category": "work"
+        }
+    },{
+        "id": "10",
+        "parent_id": "9",
+        "name": "Отстоять воду",
+        "done": false,
+        "params": {
+            "category": "home"
+        }
+    },{
+        "id": "11",
+        "parent_id": "9",
+        "name": "Полить",
+        "done": false,
+        "params": {
+            "category": "home"
+        }
+    }
+
+]
