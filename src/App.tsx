@@ -1,24 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Grid } from '@mui/material';
 import './App.css';
+import Sidebar from './components/sidebar/Sidebar';
+import ControlledTreeView from './components/Tree';
+import ButtonLoadJSON from './components/ButtonLoadJSON';
+import ButtonSaveToJSON from './components/ButtonSaveToJSON';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main>
+        <Grid container>
+          <Grid item xs={12} sm={8}>
+            <Grid
+              container
+              justifyContent="flex-end"
+              alignItems="center"
+              gap={2}
+              p={2}
+            >
+              <ButtonSaveToJSON />
+              <ButtonLoadJSON />
+            </Grid>
+            <ControlledTreeView />
+          </Grid>
+          <Grid item xs={12} sm={4} className="sidebar" container>
+            <Sidebar />
+          </Grid>
+        </Grid>
+      </main>
     </div>
   );
 }
