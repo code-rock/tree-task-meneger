@@ -64,7 +64,7 @@ export function Info({ task, saveTaskChanges }: IInfo) {
     }
 
     return (
-        <Grid style={{ width: '100%', minHeight: "100vh", paddingBottom: "20px", background: form.done? "#36D986": "#282c34"  }}>
+        <Grid style={{ paddingBottom: "20px", background: form.done? "#36D986": "#282c34" }} xs={12} alignItems="stretch">
             <ThemeProvider theme={theme}>
                 <form onSubmit={handleSubmit}>
                     <TabContext value={value}>
